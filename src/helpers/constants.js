@@ -6,6 +6,10 @@ export const TOTAL_BOX_HORIZONTAL = 10;
 export const TOTAL_BOX_VERTICAL = 21;
 export const CONTROLLER_HEIGHT = 150;
 
+export const DIRECTION_DOWN = 'DOWN';
+export const DIRECTION_LEFT = 'LEFT';
+export const DIRECTION_RIGHT = 'RIGHT';
+
 export const I_PIECE = 1;
 export const S_PIECE = 2;
 export const Z_PIECE = 3;
@@ -13,6 +17,17 @@ export const T_PIECE = 4;
 export const L_PIECE = 5;
 export const J_PIECE = 6;
 export const O_PIECE = 7;
+
+export const COLOR_I_PIECE = "#FF0";
+export const COLOR_S_PIECE = "#0F0";
+export const COLOR_Z_PIECE = "#F00";
+export const COLOR_T_PIECE = "#0FF";
+export const COLOR_L_PIECE = "#0AFAA0";
+export const COLOR_J_PIECE = "#00F";
+export const COLOR_O_PIECE = "#FA09FF";
+
+
+
 
 // base matrix and colors
 export const MATRIX_I_PIECE = [
